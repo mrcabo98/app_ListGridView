@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="posiciones">
+        <item>Escoge una posición válida</item> // Selección
+        <item>ENT</item> // Entrenador
+        <item>POR</item> // Portero
+        <item>CAD</item> // Carrilero Derecho
+        <item>LD</item> // Lateral Derecho
+        <item>DFC</item> // Defensa Central
+        <item>LI</item> // Lateral Izquierdo
+        <item>CAI</item> // Carrilero Izquierdo
+        <item>MCD</item> // Medio Centro Defensico
+        <item>MD</item> // Medio Derecho
+        <item>MC</item> // Medio Centro
+        <item>MI</item> // Medio Izquierdo
+        <item>MCO</item> // Medio Centro Ofensivo
+        <item>SDD</item> // Segundo Delantero Derecho
+        <item>MP</item> // Media Punta
+        <item>SDI</item> // Segundo Delantero Izquierdo
+        <item>ED</item> // Extremo Derecho
+        <item>DC</item> // Delantero Centro
+        <item>EI</item> // Extremo Izquierdo
+    </string-array>
+
+    <string-array name="nacionalidades">
+        <item>Escoge una nacionalidad válida</item>
+        <item>Alemania</item>
+        <item>Brasil</item>
+        <item>España</item>
+        <item>Estados Unidos</item>
+        <item>Uruguay</item>
+        <item>Francia</item>
+        <item>República Dominicana</item>
+        <item>Holanda</item>
+        <item>Bòsnia</item>
+        <item>Dinamarca</item>
+        <item>Portugal</item>
+        <item>Argentina</item>
+    </string-array>
+</resources>

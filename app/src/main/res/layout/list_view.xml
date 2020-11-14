@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/imagenNacionalidad"
+        android:layout_toRightOf="@+id/imagenNacionalidad"
+        android:text="Nombre : "
+        android:textColor="#333"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nombreJugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@+id/nameTitle"
+        android:textColor="#333"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/numberTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameTitle"
+        android:layout_alignLeft="@id/nameTitle"
+        android:text="Dorsal : "
+        android:textColor="#333"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dorsal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombreJugador"
+        android:layout_alignLeft="@+id/nombreJugador"
+        android:textColor="#333"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/positionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/numberTitle"
+        android:layout_alignLeft="@id/nameTitle"
+        android:text="Posición : "
+        android:textColor="#333"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/posicion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dorsal"
+        android:layout_alignLeft="@+id/dorsal"
+        android:textColor="#333"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagenNacionalidad"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="19dp"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:ignore="VectorDrawableCompat" />
+
+</RelativeLayout>

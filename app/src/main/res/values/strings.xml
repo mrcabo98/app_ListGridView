@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">List_Grid_View</string>
+    <string name="registro_de_un_nuevo_jugador">REGISTRO DE UN NUEVO JUGADOR</string>
+    <string name="nombre_y_apellidos">Nombre y Apellidos</string>
+    <string name="posici_n">Posición</string>
+    <string name="nacionalidad">Nacionalidad</string>
+    <string name="dorsal">Dorsal</string>
+</resources>
